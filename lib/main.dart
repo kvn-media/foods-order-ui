@@ -6,9 +6,8 @@ import 'views/tab_desktop/desktop_screen.dart';
 import 'views/mobile/mobile_screen.dart';
 import 'widgets/responsive.dart';
 
-void main() {
-  runApp(const MyApp());
-}
+void main() => runApp(const MyApp());
+
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
